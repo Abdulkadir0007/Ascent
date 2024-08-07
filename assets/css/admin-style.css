@@ -1,0 +1,65 @@
+section.admin-page {
+    font-family: "NotoSans", Roboto, "Open Sans", sans-serif;
+}
+section.admin-page .header {
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 7px;
+}
+section.admin-page .header .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px 0;
+}
+section.admin-page .header .top .right a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #1d2327;
+}
+
+section.admin-page .header hr {
+    margin: 0;
+}
+section.admin-page .header .bottom {
+    padding: 0 15px 10px;
+
+}
+section.admin-page .header .bottom span {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+section.admin-page .middle {
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+section.admin-page .middle .left {
+    flex: 2;
+
+}
+section.admin-page .middle .left h2 {
+    font-size: 35px;
+}
+section.admin-page .middle .left p {
+    font-size: 16px;
+}
+
+section.admin-page .middle .right {
+    flex: 2;
+}
+section.admin-page .middle .right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section.admin-page .middle .right ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3c434a;
+    line-height: 1.5;
+}

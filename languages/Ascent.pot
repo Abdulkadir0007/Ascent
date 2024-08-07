@@ -1,0 +1,143 @@
+# This file is part of the 'Ascent' WordPress theme.
+#
+# Copyright (C) 2024 Abdul Kadir
+#
+# This file is distributed under the terms of the GNU General Public License v3.
+# For more information, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ascent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-20 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Theme name and description
+msgid "Ascent"
+msgstr ""
+
+msgid "A theme that helps you reach new heights."
+msgstr ""
+
+# Header
+msgid "Site Title"
+msgstr ""
+
+msgid "Site Description"
+msgstr ""
+
+# Menu
+msgid "Home"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+# Content area
+msgid "Post"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Tag"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "No results found"
+msgstr ""
+
+# Footer
+msgid "Copyright"
+msgstr ""
+
+# Other strings
+msgid "Read more"
+msgstr ""
+
+msgid "Leave a comment"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+# Placeholders for dynamic content
+msgid "%d comments"
+msgstr ""
+
+msgid "View all posts by %s"
+msgstr ""
+
+msgid "Previous post"
+msgstr ""
+
+msgid "Next post"
+msgstr ""
+
+# ...
+
+# Contextual comments for translators
+# (optional, but helpful)
+# #: header.php:15
+msgid "Site Title"
+msgstr "This is the title of your website, displayed in the header."
+
+# #: sidebar.php:20
+msgid "Categories"
+msgstr "This is the heading for the list of categories in the sidebar."
+
+# ...
+
+#: includes/metaboxes/tabs/tab_template.php:256
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: 404.php:30
+msgid "Helpful Links"
+msgstr ""
+
+#: 404.php:97
+msgid "Search Our Website"
+msgstr ""
+
+#: 404.php:98
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+
+#: bbpress/form-search.php:13 includes/class-ascent-layout-bbpress.php:142
+#: includes/lib/inc/class-fusion-searchform.php:77
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:16 includes/class-ascent-layout-bbpress.php:145
+msgid "Search the Forum..."
+msgstr ""

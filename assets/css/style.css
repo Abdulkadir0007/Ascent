@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+***********************************
+***********************************
+***********Blog Style**************
+***********************************
+***********************************
+*/
+.media {
+    position: relative;
+}
+
+.media:hover .hovercover {
+    width: 100%;
+}
+
+.hovercover a {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    opacity: 0;
+    font-weight: normal;
+}
+.hovercover a.last-child {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    font-size: 15px;
+    opacity: 0;
+    font-weight: normal;
+}
+.media:hover .hovercover a {
+    opacity: 1;
+}
+.hovercover a.first-child {
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.hovercover a.last-child {
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.hovercover-title {
+    position: absolute;
+    display: none;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: 10px;
+}
+.media:hover .hovercover-title {
+    display: block;
+}
+
+.blog-attr span,
+.blog-attr span a {
+    text-decoration: none!important;
+}
+
+/*
+Pagination
+*/
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 0;
+}
+.pagination a.prev {
+    padding: 8px 25px;
+}
+.pagination a.next {
+    padding: 8px 25px;
+}
+.pagination span.current {
+    padding: 8px 15px;
+    cursor: not-allowed;
+}
+
+/*
+Single Page
+*/
+.cat-title a,
+.cat-title h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--post-title);
+    text-decoration: none;
+}
+
+#abweb-background_pattarn .redux-image-select img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.project-item .media img {
+    height: 220px;
+}
+.comment-form input{
+    background-color: transparent;
+    border: 1px solid #333;
+}
+.comment-form input:focus-visible{
+    background-color: transparent;
+    border: 1px solid #333;
+    outline: none;
+}
+.comment-form textarea{
+    background-color: transparent;
+    border: 1px solid #333;
+}
+.comment-form textarea:focus-visible{
+    background-color: transparent;
+    border: 1px solid #333;
+    outline: none;
+}
+.contt p{
+    margin-bottom: 0!important;
+}

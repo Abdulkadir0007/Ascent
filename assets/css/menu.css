@@ -1,0 +1,163 @@
+ul.main-menu > li > a {
+    color: var(--menu-font-color);
+    font-family: Poppins;
+    font-family: var(--menu-font-family);
+    font-weight: var(--menu-font-weight);
+    font-style: var(--menu-font-weight);
+    line-height: var(--menu-font-height);
+    font-size: var(--menu-font-size);
+    text-transform: var(--menu-text-transform);
+    margin-right: var(--menu-text-padding);
+    transition: 0.2s;
+}
+
+.header--fixed .search span.fa-search:hover,
+.header--fixed > ul.main-menu > li:hover > a,
+ul.main-menu > li:hover a {
+    color: var(--menu-active-hover-color)!important;
+}
+ul.main-menu > li:hover li a {
+    color: var(--dordown-font-color)!important;
+}
+.header--fixed ul.main-menu > li.current-menu-item a,
+.ul.main-menu li.current-menu-item a {
+    color: var(--menu-active-hover-color)!important;
+}
+
+ul.main-menu li.current-menu-item ul li a,
+ul.main-menu li:hover ul li a {
+    color: var(--dordown-font-color);
+}
+
+ul.main-menu > li ul li a {
+    color: var(--dordown-font-color);
+}
+
+ul.main-menu li ul li {
+    background-color: var(--dordown-back-color) !important;
+}
+
+ul.main-menu li ul li:hover {
+    background-color: var(--dordown-hov-back) !important;
+}
+
+ul.main-menu li ul li:hover a {
+    color: var(--dordown-hov-color) !important;
+}
+
+ul.main-menu li ul li:hover ul li a {
+    color: var(--dordown-font-color) !important;
+}
+
+ul.main-menu li li:hover a {
+    color: var(--dordown-hover-color) !important;
+}
+
+ul.main-menu li ul {
+    background-color: var(--dordown-back-color);
+}
+
+ul.main-menu li ul li ul li:hover > a {
+    color: var(--dordown-hov-color) !important;
+}
+
+.logo-img img {
+    max-width: 200px;
+    max-height: 70px;
+    display: block;
+}
+
+.logo-imgs img {
+    max-width: 200px;
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+ul.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.main-menu li {
+    display: inline-block;
+    position: relative;
+    z-index: 99;
+}
+
+ul.main-menu li a {
+    display: block;
+    text-decoration: none;
+}
+
+/*Dropdown Menu*/
+ul.main-menu li ul {
+    left: -99999px;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    width: var(--dordown-menu-width);
+    padding-left: 0;
+}
+
+ul.main-menu li:hover ul {
+    left: 0;
+}
+
+ul.main-menu li ul li {
+    display: block;
+}
+
+ul.main-menu li ul li a {
+    padding: 8px 10px;
+    font-size: var(--dordown-font-size);
+}
+
+/*Sub Dropdown Menu*/
+ul.main-menu li ul ul {
+    left: -99999px;
+    top: 0;
+    position: absolute;
+}
+
+ul.main-menu li:hover ul li ul {
+    left: -999999px;
+}
+
+ul.main-menu li ul li:hover > ul {
+    left: 100%;
+}
+
+.search-btn {
+    margin-left: 1px;
+}
+
+a {
+    cursor: pointer;
+}
+
+nav.right ul.main-menu li:last-child ul li:hover > ul,
+nav.right ul.main-menu li:nth-last-child(2) ul li:hover > ul {
+    left: -100%;
+}
+
+.sh-menu ul.menu li ul {
+    display: none;
+}
+
+.sh-menu ul.sub-menu {
+    display: none;
+
+}
+ul.main-menu li ul li {
+    z-index: revert-layer;
+}
+ul.main-menu li ul li ul li {
+    z-index: 99;
+}
