@@ -1,0 +1,13 @@
+{
+    "name": "Ascent",
+    "version": "2.1.0",
+    "download_url": "https://github.com/Abdulkadir007/Ascent.git/archive/main.zip",
+    "sections": {
+      "description": "Theme update description goes here.",
+      "changelog": "Changelog details go here."
+    },
+    "requires": "5.0",
+    "tested": "5.8",
+    "requires_php": "7.2"
+  }
+  
