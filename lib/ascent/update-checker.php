@@ -8,7 +8,7 @@ require get_template_directory() . '/lib/plugin-update-checker/plugin-update-che
 
 // Instantiate the update checker.
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/Abdulkadir070/Ascent/',
+    'https://raw.githubusercontent.com/Abdulkadir0007/Ascent/main/update-info.json',
     __FILE__,
     'ascent'
 );
