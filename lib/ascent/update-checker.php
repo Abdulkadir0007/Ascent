@@ -9,7 +9,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://raw.githubusercontent.com/Abdulkadir0007/Ascent/main/update-info.json',
-	__FILE__,
+	get_template_directory() . '/style.css',
 	'ascent'
 );
 
