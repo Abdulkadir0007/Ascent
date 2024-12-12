@@ -1,0 +1,50 @@
+# This is the template for the Ascent theme.
+# Language: bn
+# Copyright: Abdul Kadir
+# Version: 1.0
+# Last-Translator: Abdul Kadir <mabdulkadir5g@gmail.com>
+# Email: mabdulkadir5g@gmail.com
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Ascent 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Abdul Kadir <mabdulkadir5g@gmail.com>\n"
+"Language-Team: Bangla <mabdulkadir5g@gmail.com>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/header.php:45
+msgid "Welcome to Ascent Theme"
+msgstr ""
+
+#: inc/footer.php:20
+msgid "All rights reserved."
+msgstr ""
+
+#: template-parts/content.php:70
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content.php:80
+msgid "Comments"
+msgstr ""
+
+#: template-parts/content.php:90
+msgid "Posted on"
+msgstr ""
+
+#: template-parts/content.php:100
+msgid "by"
+msgstr ""
+
+#: template-parts/content.php:110
+msgid "Category"
+msgstr ""
+
+#: template-parts/content.php:120
+msgid "Tag"
+msgstr ""
+

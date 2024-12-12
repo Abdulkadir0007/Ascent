@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+/* 
+***********************************
+***********************************
+***********Blog Style**************
+***********************************
+***********************************
+*/
+.media{
+    position: relative;
+}
+
+.hovercover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 0;
+    height: 100%;
+    background-color: #f27935;
+    transition: 0.3s;
+    opacity: 0.85;
+}
+.media:hover .hovercover{
+    width: 100%;
+}
+.media h2.hovercover-title{
+    pointer-events: none;
+}
+
+.hovercover a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    opacity: 0;
+    font-weight: normal;
+}.media:hover .hovercover a{
+    opacity: 1;
+}
+.hovercover a.first-child{
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.hovercover a.last-child{
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.hovercover-title {
+    font-size: 30px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: 10px;
+    opacity: 0;
+}
+.media:hover .hovercover-title{
+    opacity: 1;
+}
+.search-icon{
+    background-image: url(../images/lupe.png);
+    background-color: var(--button-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8px 18px;
+}
+
+.searchs input[type="submit"]:hover{
+    background-color: var(--button-color);
+}
+.searchs input[type="search"]{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.searchs input[type="search"]:hover,.searchs input[type="search"]:focus,.searchs input[type="submit"]:active{
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+.blog-attr span,.blog-attr span a{
+    font-size: 13px;
+    color: var(--contant-color);
+}
+
+footer{
+    background-color: antiquewhite;
+}
+.sub-fotter{
+    background-color: bisque;
+}
+/*
+Pagination
+*/
+.pagination a{
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 0;
+    color: var(--button-text);
+}
+.pagination a.prev{
+    padding: 8px 25px;
+}
+.pagination a.next{
+    padding: 8px 25px;
+}
+.pagination span{
+    padding: 8px 15px;
+    color: var(--button-text);
+    cursor: not-allowed;
+}
+.pagination a:hover{
+    background-color: var(--button-color);
+    color: var(--button-text);
+}
+/*
+Single Page
+*/
+.cat-title h3,.cat-title a{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--post-title);
+    text-decoration: none;
+}
+.autor-pic img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
